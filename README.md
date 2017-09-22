@@ -1,6 +1,8 @@
 # Discrete Mathematics assignment 2
 ## Programming with predicates
 
+Jonas Simonsen
+Kasper Worm
 
 #### Description 
 Vi har lavet et program som kan vise en studerendes skema,
