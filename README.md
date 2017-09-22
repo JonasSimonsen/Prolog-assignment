@@ -10,10 +10,10 @@ bestående af students, class, rooms, date. <br/>
 I programmet kan der udføres flere forskellige queueries, for at få forskellig oplysninger om fx den studerende: <br/>
 
 | Queueries     | Result        |
-| ------------- |:-------------:|
-| classroom(Class, Room).   | Vil printe alle fag + lokale. |
-| classdate(Class, Date).   | Vil printe hvilket fag der bliver undervist på hvilken dag.      |
-| schedule(Name, Class, Room).  | Vil printe skema uden dag.    |
+| ------------- | ------------- |
+| classroom(Class, Room).       | Vil printe alle fag + lokale.                                    |
+| classdate(Class, Date).       | Vil printe hvilket fag der bliver undervist på hvilken dag.      |
+| schedule(Name, Class, Room).  | Vil printe skema uden dag.                                       |
 
 #### Queueries
 ##### Student view point
