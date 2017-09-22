@@ -11,28 +11,28 @@ I programmet kan der udføres flere forskellige queueries, for at få forskellig
 
 | Queueries     | Result        |
 | ------------- | ------------- |
-| classroom(Class, Room).       | Vil printe alle fag + lokale.                                    |
-| classdate(Class, Date).       | Vil printe hvilket fag der bliver undervist på hvilken dag.      |
-| schedule(Name, Class, Room).  | Vil printe skema uden dag.                                       |
+| classroom(Class, Room).               | Vil printe alle fag + lokale.                                    |
+| classdate(Class, Date).               | Vil printe hvilket fag der bliver undervist på hvilken dag.      |
+| schedule(Name, Class, Room).          | Vil printe skema uden dag.                                       |
+| schedule(Name, Class, Room, Date).    | Result = Vil printe skema med dag.                               |
+
+
+| Queueries     | Result        |
+| ------------- | ------------- |
+| classroom(dansk, Room).               | Vil printe alle lokaler hvor der undervises i dansk.             |
+| classroom(Class, 17).                 | Vil printe alle fag der bliver undervist i, i lokale 17.         |
+| classdate(fysik, Date).               | Vil printe hvilke dage der undervist i fysik.                    |
+| classdate(Class, mandag).             | Vil printe hvilket fag der bliver undervist på mandage.          |
+| schedule(martin, Class, Room).        | Vil printe martins fag og lokale.                                |
+| schedule(martin, Class, Room, Date).  | Vil printe marting fag, lokale, og dag.                          |
+
+
+
 
 #### Queueries
 ##### Student view point
 Her er queueries som en studerende typisk vil bruge: <br/>
 
-classroom(Class, Room).               Result = Vil printe alle fag + lokale. <br/>
-classdate(Class, Date).               Result = Vil printe hvilket fag der bliver undervist på hvilken dag. <br/>
-schedule(Name, Class, Room).          Result = Vil printe skema uden dag. <br/>
-schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag. <br/>
-
-Eksempler <br/>
-classroom(dansk, Room).               Result = Vil printe alle lokaler hvor der undervises i dansk. <br/>
-classroom(Class, 17).                 Result = Vil printe alle fag der bliver undervist i, i lokale 17. <br/>
-
-classdate(fysik, Date).               Result = Vil printe hvilke dage der undervist i fysik. <br/>
-classdate(Class, mandag).             Result = Vil printe hvilket fag der bliver undervist på mandage. <br/>
-
-schedule(martin, Class, Room).        Result = Vil printe martins fag og lokale. <br/>
-schedule(martin, Class, Room, Date).  Result = Vil printe marting fag, lokale, og dag. <br/>
 
 ##### Admin view point
 
