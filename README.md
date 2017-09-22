@@ -61,3 +61,4 @@ Her er queueries som en studerende typisk vil bruge: <br/>
 | schedule(Name, Class, 17).    | Vil printe hvile fag og studerende der er i lokale 17.       |
 | schedule(Name, Class, Room, mandag).  | Vil printe hvilke studerende, fag og lokale der er om mandagen.         |
 
+Group: Kasper Worm & Jonas Simonsen
