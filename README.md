@@ -9,6 +9,11 @@ bestående af students, class, rooms, date. <br/>
 
 I programmet kan der udføres flere forskellige queueries, for at få forskellig oplysninger om fx den studerende: <br/>
 
+#### Queueries
+##### Student view point
+Her er queueries som en studerende typisk vil bruge: <br/>
+
+
 | Queueries     | Result        |
 | ------------- | ------------- |
 | classroom(Class, Room).               | Vil printe alle fag + lokale.                                    |
@@ -16,7 +21,7 @@ I programmet kan der udføres flere forskellige queueries, for at få forskellig
 | schedule(Name, Class, Room).          | Vil printe skema uden dag.                                       |
 | schedule(Name, Class, Room, Date).    | Result = Vil printe skema med dag.                               |
 
-
+**Eksempler:**
 | Queueries     | Result        |
 | ------------- | ------------- |
 | classroom(dansk, Room).               | Vil printe alle lokaler hvor der undervises i dansk.             |
@@ -27,34 +32,32 @@ I programmet kan der udføres flere forskellige queueries, for at få forskellig
 | schedule(martin, Class, Room, Date).  | Vil printe marting fag, lokale, og dag.                          |
 
 
-
-
-#### Queueries
-##### Student view point
-Her er queueries som en studerende typisk vil bruge: <br/>
-
-
 ##### Admin view point
 
-room(Room).                           Result = Vil printe alle lokaler. <br/>
-dates(Date).                          Result = Vil printe undervisningsdage. <br/>
-class(Class).                         Result = Vil printe fagene der bliver undervist i. <br/>
-student(Student).                     Result = Vil printe alle studerende. <br/>
-takes(Student, Class).                Result = Vil printe de fag den studerende tager. <br/>
-classroom(Class, Room).               Result = Vil printe alle fag + lokale. <br/>
-classdate(Class, Date).               Result = Vil printe hvilket fag der bliver undervist på hvilken dag. <br/>
-schedule(Name, Class, Room).          Result = Vil printe skema uden dag. <br/>
-schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag. <br/>
+| Queueries     | Result        |
+| ------------- | ------------- |
+| room(Room).              | Vil printe alle lokaler.             |
+| dates(Date).                | Vil printe undervisningsdage.        |
+| class(Class).               | Vil printe fagene der bliver undervist i.                  |
+| student(Student).           | Vil printe alle studerende.       |
+| takes(Student, Class).         | Vil printe de fag den studerende tager.                               |
+| classroom(Class, Room).   | Vil printe alle fag + lokale.                        |
+| classdate(Class, Date).   | Vil printe hvilket fag der bliver undervist på hvilken dag.                       |
+| schedule(Name, Class, Room).  | Vil printe skema uden dag.                        |
+| schedule(Name, Class, Room, Date).  | Vil printe skema med dag.                       |
 
-Eksempler <br/>
-room(12).                             Result = Vil printe om lokale eksisterer <br/>
-dates(mandag).                        Result = Vil printe om mandag er en undervisningsdag. <br/>
-class(dansk).                         Result = Vil printe om dansk er et undervisningfag. <br/>
-student(jonas).                       Result = Vil printe om Jonas er elev. <br/>
+**Eksempler:**
 
-takes(martin, Class).                 Result = Vil printe de fag martin tager. <br/>
-takes(Student, dansk).                Result = Vil printe de studerende med undervisning i dansk. <br/>
 
-schedule(Name, dansk, Room).          Result = Vil printe hvilke studerende der skal have dansk i hvilket lokale. <br/>
-schedule(Name, Class, 17).            Result = Vil printe hvile fag og studerende der er i lokale 17. <br/>
-schedule(Name, Class, Room, mandag).  Result = Vil printe hvilke studerende, fag og lokale der er om mandagen. <br/>
+| Queueries     | Result        |
+| ------------- | ------------- |
+| room(12).              | Vil printe om lokale eksisterer            |
+| dates(mandag).             | Vil printe om mandag er en undervisningsdag.           |
+| class(dansk).               | Vil printe om dansk er et undervisningfag.             |
+| student(jonas).              | Vil printe om Jonas er elev.            |
+| takes(martin, Class).   | Vil printe de fag martin tager.          |
+| takes(Student, dansk).  | Vil printe de studerende med undervisning i dansk.         |
+| schedule(Name, dansk, Room).  | Vil printe hvilke studerende der skal have dansk i hvilket lokale.          |
+| schedule(Name, Class, 17).    | Vil printe hvile fag og studerende der er i lokale 17.       |
+| schedule(Name, Class, Room, mandag).  | Vil printe hvilke studerende, fag og lokale der er om mandagen.         |
+
