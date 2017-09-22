@@ -22,6 +22,7 @@ Her er queueries som en studerende typisk vil bruge: <br/>
 | schedule(Name, Class, Room, Date).    | Result = Vil printe skema med dag.                               |
 
 **Eksempler:**
+
 | Queueries     | Result        |
 | ------------- | ------------- |
 | classroom(dansk, Room).               | Vil printe alle lokaler hvor der undervises i dansk.             |
@@ -47,7 +48,6 @@ Her er queueries som en studerende typisk vil bruge: <br/>
 | schedule(Name, Class, Room, Date).  | Vil printe skema med dag.                       |
 
 **Eksempler:**
-
 
 | Queueries     | Result        |
 | ------------- | ------------- |
