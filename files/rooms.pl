@@ -1,0 +1,12 @@
+room(12).
+room(14).
+room(17).
+room(1).
+room(9).
+room(7).
+room(4).
+room(8).
+room(2).
+room(4).
+room(3).
+room(13).

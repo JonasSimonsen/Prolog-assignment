@@ -1,0 +1,11 @@
+classdate(so, mandag).
+classdate(samfundsfag, mandag).
+classdate(engelsk, tirsdag).
+classdate(dansk, tirsdag).
+classdate(matematik, onsdag).
+classdate(elektronik, onsdag).
+classdate(fysik, torsdag).
+classdate(kemi, torsdag).
+classdate(biologi, torsdag).
+classdate(musik, fredag).
+classdate(atletik, fredag).

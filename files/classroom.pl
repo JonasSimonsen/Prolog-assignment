@@ -1,0 +1,11 @@
+classroom(dansk, 12).
+classroom(matematik, 14).
+classroom(engelsk, 17).
+classroom(so, 9).
+classroom(fysik, 1).
+classroom(atletik, 13).
+classroom(kemi, 3).
+classroom(samfundsfag, 4).
+classroom(musik, 13).
+classroom(elektronik, 1).
+classroom(biologi, 3).

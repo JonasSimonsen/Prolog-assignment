@@ -1,0 +1,11 @@
+class(dansk).
+class(matematik).
+class(engelsk).
+class(so).
+class(atletik).
+class(kemi).
+class(samfundsfag).
+class(musik).
+class(elektronik).
+class(fysik).
+class(biologi).
