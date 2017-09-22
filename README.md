@@ -14,8 +14,8 @@ Nogle vil være relevante for en studerende, hvor andre vil have mere fokus på 
 Sådan kører du programmet:
 1. Klon projektet
 2. Naviger til projektet i terminal/cmd
-3. Åben prolog
-4. Load projektet med: consult('load.pl').
+3. Åben prolog fra projekt folderen
+4. Load projektet med: consult('load.pl'). eller [load].
 5. Prøv nogle af de nedenstående queueries
 
 #### Queueries
