@@ -13,7 +13,7 @@ I programmet kan der udføres flere forskellige queueries, for at få forskellig
 ##### Student view point
 Her er queueries som en studerende typisk vil bruge: <br/>
 
-classroom(Class, Room).               Result = Vil printe alle fag + lokale. <br/>
+classroom(Class, Room).                Result = Vil printe alle fag + lokale. <br/>
 classdate(Class, Date).               Result = Vil printe hvilket fag der bliver undervist på hvilken dag. <br/>
 schedule(Name, Class, Room).          Result = Vil printe skema uden dag. <br/>
 schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag. <br/>
