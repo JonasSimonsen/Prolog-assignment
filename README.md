@@ -17,7 +17,7 @@ classdate(Class, Date).               Result = Vil printe hvilket fag der bliv
 schedule(Name, Class, Room).          Result = Vil printe skema uden dag. <br/>
 schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag. <br/>
 
-Eksempler
+Eksempler <br/>
 classroom(dansk, Room).               Result = Vil printe alle lokaler hvor der undervises i dansk. <br/>
 classroom(Class, 17).                 Result = Vil printe alle fag der bliver undervist i, i lokale 17. <br/>
 
@@ -39,7 +39,7 @@ classdate(Class, Date).               Result = Vil printe hvilket fag der bliver
 schedule(Name, Class, Room).          Result = Vil printe skema uden dag. <br/>
 schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag. <br/>
 
-Eksempler
+Eksempler <br/>
 room(12).                             Result = Vil printe om lokale eksisterer <br/>
 dates(mandag).                        Result = Vil printe om mandag er en undervisningsdag. <br/>
 class(dansk).                         Result = Vil printe om dansk er et undervisningfag. <br/>
