@@ -11,12 +11,12 @@ Der er lavet forskellige queries, som giver forskellig information
 
 Nogle vil være relevante for en studerende, hvor andre vil have mere fokus på administrationen.
 
-To run the program
-1. Clone project
-2. Navigate to projekt in terminal/cmd
-3. Open prolog
-4. Load project with: "consult('load.pl')." - without ""
-5. Test out some of the queries below
+Sådan kører du programmet:
+1. Klon projektet
+2. Naviger til projektet i terminal/cmd
+3. Åben prolog
+4. Load projektet med: consult('load.pl').
+5. Prøv nogle af de nedenstående queueries
 
 #### Queueries
 Her er de queueries som man kan bruge i programmet <br>
