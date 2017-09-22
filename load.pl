@@ -8,5 +8,6 @@
      files/classdate,
      files/classroom,
      files/takes,
-     files/schedule
+     files/schedule,
+     files/dates
    ].
