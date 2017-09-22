@@ -4,7 +4,7 @@
 
 #### Description 
 Vi har lavet et program som kan vise en studerendes skema,
-bestående af students, class, rooms, date. 
+bestående af students, class, rooms, date. /n
 
 I programmet kan der udføres flere forskellige queueries, for at få forskellig oplysninger om fx den studerende: 
 
@@ -12,7 +12,7 @@ I programmet kan der udføres flere forskellige queueries, for at få forskellig
 ##### Student view point
 Her er queueries som en studerende typisk vil bruge: 
 
-classroom(Class, Room).               Result = Vil printe alle fag + lokale.
+classroom(Class, Room).               Result = Vil printe alle fag + lokale. /n
 classdate(Class, Date).               Result = Vil printe hvilket fag der bliver undervist på hvilken dag.
 schedule(Name, Class, Room).          Result = Vil printe skema uden dag.
 schedule(Name, Class, Room, Date).    Result = Vil printe skema med dag.
